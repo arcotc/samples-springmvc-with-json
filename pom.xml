@@ -19,13 +19,6 @@
 		<jettyVersion>7.2.0.v20101020</jettyVersion>
 	</properties>
 
-	<repositories>
-       <repository>
-           <id>guardian-nexus</id>
-           <url>http://nexus.gudev.gnl:8081/nexus/content/groups/public</url>
-       </repository>
-	</repositories>
-
 	<dependencies>
 		<dependency>
 			<groupId>javax.transaction</groupId>
