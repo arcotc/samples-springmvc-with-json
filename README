@@ -1,0 +1,12 @@
+SpringMVC (with JSON and JSP support)
+-------------------------------------
+
+This is the basic structure of SpringMVC project with JSON and JSP support.
+
+It implements a simple 'hello world' set of endpoints.
+
+/hello/{name}
+/json/hello/{name}
+
+The {name} provided in both endpoints above are rendered during execution, so the JSP endpoint /hello/world will output
+Hello World
